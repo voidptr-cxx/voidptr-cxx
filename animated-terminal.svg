@@ -1,0 +1,129 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .terminal-bg { fill: #0a0a0f; }
+      .terminal-border { stroke: #00ff88; stroke-width: 2; fill: none; }
+      .terminal-text { font-family: 'Courier New', monospace; font-size: 14px; }
+      .prompt { fill: #00ddff; }
+      .command { fill: #00ff88; }
+      .output { fill: #ffffff; }
+      .success { fill: #00ff88; }
+      .cursor { fill: #00ff88; }
+    </style>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Terminal Window -->
+  <rect class="terminal-bg" width="800" height="400" rx="10"/>
+  <rect class="terminal-border" x="1" y="1" width="798" height="398" rx="10" filter="url(#glow)"/>
+  
+  <!-- Terminal Header -->
+  <rect fill="#1a1a1f" width="800" height="30" rx="10 10 0 0"/>
+  <circle cx="15" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="35" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="55" cy="15" r="6" fill="#27c93f"/>
+  <text x="400" y="20" class="terminal-text" fill="#888" text-anchor="middle">
+    voidptr@github:~/projects
+  </text>
+  
+  <!-- Terminal Content -->
+  <g class="terminal-text">
+    <!-- Line 1 -->
+    <text x="20" y="60" class="prompt">┌──(voidptr㉿github)-[~/projects]</text>
+    <text x="20" y="80" class="prompt">└─$</text>
+    <text x="55" y="80" class="command">
+      ./compile_dreams.sh
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze"/>
+    </text>
+    
+    <!-- Progress Bar -->
+    <text x="20" y="110" class="output">
+      [████████████████████] 100%
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+    </text>
+    <text x="260" y="110" class="output">
+      - Compiling imagination...
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+    </text>
+    
+    <!-- Compilation Results -->
+    <rect x="15" y="130" width="770" height="110" fill="#1a1a1f" rx="5">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+    </rect>
+    
+    <text x="30" y="155" class="output" opacity="0">
+      ┌─────────────────────────────────────────┐
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2s" fill="freeze"/>
+    </text>
+    <text x="30" y="175" class="output" opacity="0">
+      │ COMPILATION SUCCESSFUL                  │
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.2s" fill="freeze"/>
+    </text>
+    <text x="30" y="190" class="output" opacity="0">
+      │ ─────────────────────────────────────── │
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.3s" fill="freeze"/>
+    </text>
+    
+    <text x="30" y="210" class="success" opacity="0">
+      │ ✓ Optimization: -O3 -march=native      │
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.5s" fill="freeze"/>
+    </text>
+    <text x="30" y="225" class="success" opacity="0">
+      │ ✓ Warnings: -Wall -Wextra -Werror      │
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.7s" fill="freeze"/>
+    </text>
+    <text x="30" y="240" class="success" opacity="0">
+      │ ✓ Standard: C++20                       │
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.9s" fill="freeze"/>
+    </text>
+    <text x="30" y="255" class="success" opacity="0">
+      └─────────────────────────────────────────┘
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.1s" fill="freeze"/>
+    </text>
+    
+    <!-- Git Commands -->
+    <text x="20" y="285" class="prompt" opacity="0">
+      ┌──(voidptr㉿github)-[~/projects]
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.5s" fill="freeze"/>
+    </text>
+    <text x="20" y="305" class="prompt" opacity="0">
+      └─$
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.5s" fill="freeze"/>
+    </text>
+    <text x="55" y="305" class="command" opacity="0">
+      git log --oneline --graph
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.8s" fill="freeze"/>
+    </text>
+    
+    <!-- Git Log Output -->
+    <text x="20" y="330" class="output" opacity="0">
+      * a4f8e2b feat: lock-free queue implementation
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="4.3s" fill="freeze"/>
+    </text>
+    <text x="20" y="350" class="output" opacity="0">
+      * 7b3d91c perf: optimize cache locality
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="4.6s" fill="freeze"/>
+    </text>
+    <text x="20" y="370" class="output" opacity="0">
+      * 2e9c5a1 refactor: RAII wrapper for pointers
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="4.9s" fill="freeze"/>
+    </text>
+    
+    <!-- Cursor -->
+    <rect x="20" y="382" width="10" height="15" class="cursor">
+      <animate attributeName="opacity" values="1;0;1" dur="0.7s" begin="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Glow Effect -->
+  <rect x="1" y="1" width="798" height="398" rx="10" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
