@@ -84,6 +84,21 @@ public:
 
 ---
 
+## `💻 Coding Activity`
+
+<div align="center">
+
+<a href="https://github.com/voidptr-cxx">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=voidptr-cxx&theme=github_dark" alt="Profile Summary"/>
+</a>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=voidptr-cxx&theme=github_dark" alt="Repos Per Language"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=voidptr-cxx&theme=github_dark" alt="Most Commit Language"/>
+
+</div>
+
+---
+
 ## `🔧 What I'm Working On`
 
 <img align="right" alt="Coding" width="350" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
@@ -110,14 +125,32 @@ CurrentWork stack[] = {
 
 ---
 
-## `💻 Coding Activity`
+## `🚀 Terminal Output`
+
+```console
+voidptr@github:~$ ./compile_dreams.sh
+[████████████████████] 100% - Compiling imagination...
+[✓] Optimization level: -O3
+[✓] Warnings: -Wall -Wextra -Werror  
+[✓] Standard: C++20
+[✓] Memory leaks: 0 bytes
+[SUCCESS] Build complete. Ready to ship! 🚀
+
+voidptr@github:~$ git log --oneline --graph
+* a4f8e2b (HEAD -> main) feat: implement lock-free queue
+* 7b3d91c perf: optimize cache locality
+* 2e9c5a1 refactor: RAII wrapper for raw pointers
+* f1a7b8e docs: update memory management guide
+```
+
+---
+
+## `📈 Contribution Metrics`
 
 <div align="center">
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=voidptr&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00ff88&text_color=ffffff&icon_color=00ddff" alt="Wakatime Stats"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=voidptr-cxx&theme=github_dark" alt="Productive Time"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=voidptr-cxx&theme=github_dark" alt="Stats"/>
 
 </div>
 
@@ -129,8 +162,9 @@ CurrentWork stack[] = {
 
 <div align="center">
 
-*"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows away your whole leg."*
-  Bjarne Stroustrup
+> *"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows away your whole leg."*
+> 
+> — Bjarne Stroustrup
 
 </div>
 
@@ -179,11 +213,15 @@ while(!learning_queue.empty()) {
 
 ---
 
-## `🐍 Contribution Graph`
+## `🐍 Contribution Snake`
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/voidptr-cxx/voidptr-cxx/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voidptr-cxx/voidptr-cxx/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voidptr-cxx/voidptr-cxx/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/voidptr-cxx/voidptr-cxx/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
 
@@ -193,7 +231,7 @@ while(!learning_queue.empty()) {
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%" height="50%">
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
 
 ```
 0x00000000: Exploring memory addresses
@@ -226,9 +264,9 @@ while(!learning_queue.empty()) {
 ```
 ╔═══════════════════════════════════════════════╗
 ║                                               ║
-║    "In C we trust, in C++ we abstract"       ║
+║    "In C we trust, in C++ we abstract"        ║
 ║                                               ║
-║         ./voidptr --version 1.0.0            ║
+║         ./voidptr --version 1.0.0             ║
 ║                                               ║
 ╚═══════════════════════════════════════════════╝
 ```
