@@ -254,16 +254,16 @@ void execute_stack() {
 
 [████████████████████] 100% - Compiling imagination...
 
-┌────────────────────────────────────────┐
-│ COMPILATION SUCCESSFUL                 │
-│ ───────────────────────────────────────│
+┌─────────────────────────────────────────┐
+│ COMPILATION SUCCESSFUL                  │
+│ ─────────────────────────────────────── │
 │ ✓ Optimization: -O3 -march=native      │
 │ ✓ Warnings: -Wall -Wextra -Werror      │
-│ ✓ Standard: C++20                      │
+│ ✓ Standard: C++20                       │
 │ ✓ Memory leaks: 0 bytes                │
 │ ✓ Valgrind: All heap blocks freed      │
 │ ✓ Performance: 99.9% optimal           │
-└────────────────────────────────────────┘
+└─────────────────────────────────────────┘
 
 ┌──(voidptr㉿github)-[~/projects]
 └─$ git log --oneline --graph --all
@@ -386,12 +386,31 @@ public:
 
 ---
 
-## `📈 Metrics Dashboard`
+## `📅 3D Contribution Calendar`
 
 <div align="center">
 
-<!-- Metrics from lowlighter/metrics -->
-![Metrics](https://raw.githubusercontent.com/voidptr-cxx/voidptr-cxx/main/github-metrics.svg)
+![3D Contribution](./profile-3d-contrib/profile-night-rainbow.svg)
+
+</div>
+
+---
+
+## `💾 Code Distribution`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=voidptr-cxx&theme=radical&hide_border=true&bg_color=0D1117&title_color=00ff88&text_color=ffffff&layout=compact&custom_title=Weekly+Development" />
+
+<!-- Language Stats Circle -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=voidptr-cxx&layout=donut&theme=radical&hide_border=true&bg_color=0D1117&title_color=00ff88&text_color=ffffff" />
+
+</div>
+
+<!-- Animated Code Typing -->
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=1000&color=00FF88&center=true&vCenter=true&multiline=true&width=800&height=200&lines=%23include+%3Ciostream%3E;%23include+%3Cvector%3E;%0A;int+main()+%7B;++++std%3A%3Avector%3Cint%3E+data+%3D+%7B1%2C+2%2C+3%2C+4%2C+5%7D%3B;++++for(auto%26+val+%3A+data)+%7B;++++++++std%3A%3Acout+%3C%3C+val+%3C%3C+%22+%22%3B;++++%7D;++++return+0%3B;%7D" alt="Code Typing" />
 
 </div>
 
@@ -399,6 +418,32 @@ public:
 
 <!-- Glitch Effect -->
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%">
+
+## `🎮 Fun Zone`
+
+<div align="center">
+
+### `😄 Daily Dev Humor`
+
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=radical&hideBorder)
+
+</div>
+
+<br>
+
+<div align="center">
+
+<!-- Random Meme -->
+<img src="https://random-memer.herokuapp.com/" width="512px"/>
+
+**Refresh for a new programming meme!** 😂
+
+</div>
+
+---
+
+<!-- Glitch Effect -->
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%">.
 
 ## `🌐 Connect & Collaborate`
 
