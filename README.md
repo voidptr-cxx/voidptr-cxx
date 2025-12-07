@@ -1,4 +1,4 @@
-# ![Void Pointer](https://raw.githubusercontent.com/voidptr-cxx/voidptr-cxx/main/void_pointer_logo.png)
+# ![Void Pointer](https://raw.githubusercontent.com/voidptr-cxx/voidptr-cxx/void_pointer_logo.png)
 
 <div align="center">
 
