@@ -1,1 +1,1 @@
-(void_pointer_animated.svg)
+[IMG](void_pointer_animated.svg)
